@@ -21,7 +21,7 @@ for db in mycursor:
 mysqlformula = "INSERT INTO students (name, age) values(%s, %s)"
 students = [("suresh", 40),
             ("naresh", 35),
-            ("sandesh", 38),
+            ("sandesh",38),
             ("paresh", 31),
             ("rajesh", 32),
             ("rakesh", 30)]
